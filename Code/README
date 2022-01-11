@@ -1,0 +1,19 @@
+This directory should contain all code required to generate the output files given the input and resource files stored elsewhere.  No data files should be stored in this directory.
+
+The contents of this file should be replaced with a short description of each file contained in this directory including the purpose of that file.  If the input and output files are not easily determined by the workflow itself (i.e. driven by a Rakefile in the parent directory), these should be specified for each script in this directory.
+
+Scripts in this directory should contain a header like the one below to define the purpose of the code and any caveats associated with it.
+
+################################################################# 
+# 
+# Author: name, email
+# 
+# Version: 
+#
+# Description: 
+#
+# Notes: 
+# 
+#Potential Issues: None known 
+################################################################# 
+

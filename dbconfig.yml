@@ -1,0 +1,7 @@
+#Variables for database configuration
+user: ''
+password: ''
+host: ''
+dbport: ''
+database: ''
+raise_on_warnings: True

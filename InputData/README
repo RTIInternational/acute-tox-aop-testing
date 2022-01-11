@@ -1,0 +1,7 @@
+This directory holds all input data required for successful completion of the analysis workflow. 
+Files generated as part of the workflow should be saved to the IntermediateFiles directory.
+Files that are part of the central data repository are accessed via symlinks in the Resources directory.
+
+By default, all files in this directory are ignored by the version control system, so the user must keep track if the content of data files change.  For projects where all the data files are small, this directory can be included in the version control by commenting or removing the appropriate line in the .gitignore file in the parent directory.
+
+The contents of this file should be replaced with a descriptor of the input files stored here.  This should include but is not limited to the source, format, and any other information needed to understand the contents and how they are used in the analysis.

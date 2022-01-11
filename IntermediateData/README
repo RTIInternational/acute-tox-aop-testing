@@ -1,0 +1,8 @@
+This directory holds all files generated as part of the current analysis workflow that are only used by letter steps in the workflow.
+Files that will be used in interpreting the results from the analysis should be stored in the OutputFiles directory even if those files are used as input for downstream steps in the workflow.
+Input data that were not generated or processed by scripts in the Code directory should be saved in the InputData directory. This includes both raw data and data pre-processed outside of the current analysis workflow.
+Files that are part of the central data repository are accessed via symlinks in the Resources directory.
+
+By default, all files in this directory are ignored by the version control system, so the user must keep track if the content of data files change if needed.  For projects where all the data files are small, this directory can be included in the version control by commenting or removing the appropriate line in the .gitignore file in the parent directory.
+
+The contents of this file can be replaced with a descriptor of the intermediate files stored here unless it is deemed that the code for creating these intermediate files is self explanatory.
